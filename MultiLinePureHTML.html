@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html> 
+    
+  <head>
+    <!-- Meta Tag -->
+    <meta charset="utf-8">
+    <!-- CSS Stylesheet -->
+    <style>
+		.axis--x path {
+  		display: none;
+		}
+
+		.line {
+  			fill: none;
+			stroke: steelblue;
+  			stroke-width: 2.7px;
+		}
+
+		.grid line {
+  			stroke: lightgrey;
+  			stroke-opacity: 0.5;
+  			shape-rendering: crispEdges;
+		}
+
+		.grid path {
+  			stroke-width: 0;
+		}
+
+		.offScreen {
+    		opacity: 0;
+		}
+
+		h1{
+			position: relative;
+			left: 224px;
+			color: black;
+			display: inline-block;
+		}  
+	</style>
+    <!-- D3.js Source -->
+    <script type= "text/javascript" src="http://d3js.org/d3.v4.min.js"></script> 
+  </head>
+    
+  <body>
+    <h1>Energy Consumption Per Capita</h1>
+    <!-- Your D3.js code for making a Bar Graph -->
+    <svg width="960" height="500"></svg>
+    <script type="text/javascript" src="MultiLine.js"></script>     
+    <!-- Submission Info -->
+    <h4>Created by Stephen Thomas</h4>
+      
+    <h4>Description:</h4>
+    <p>A simple line graph displaying energy consumption per capita for 6 different countries from 2000-2010</p>
+    <!-- Create a list using <ul> and <li> tag -->   
+	  <h4>Additional Features:</h4>
+	  <ul>
+	  	  <li>Click to isolate</li>
+		  <li>Hover to display expected value</li>
+		  <li>Hover to enlarge</li>
+	  </ul>
+    <h4>Files Submitted:</h4>
+    <ul>
+      <li>MultiLine.html</li>
+      <li>MultiLine.js</li>
+      <li>MultiLine.css</li>
+      <li>EPC_2000_20210_new.csv</li>
+		<li>Average.csv</li>
+		<li>Util.py</li>
+    </ul>
+      
+    <h4> Sources: </h4>
+    <ul>
+      <li>D3 API Reference</li>
+      <li>Interactive Data Visualization for the Web</li>
+      <li><a href="http://bl.ocks.org/mbostock/3884955" target = "_blank">Line Graph Example by Mike Bostock</a></li>
+		<li><a href = "http://bl.ocks.org/duopixel/4063326">Animation Example by Mike Bostock</a></li>
+		<li><a href = "http://bl.ocks.org/hunzy/11110940">Grid example by Mike Bostock</a></li>
+    </ul>
+  </body>
+    
+</html>

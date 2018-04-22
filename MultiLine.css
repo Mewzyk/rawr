@@ -1,0 +1,31 @@
+.axis--x path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2.7px;
+}
+
+
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.5;
+  shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke-width: 0;
+}
+
+.offScreen {
+    opacity: 0;
+}
+
+h1{
+	position: relative;
+	left: 224px;
+	color: black;
+	display: inline-block;
+}
